@@ -1,7 +1,15 @@
+import BottomButtons from './components/BottomButtons/BottomButtons';
+import MainForm from './components/MainForm/MainForm';
+import RandomBox from './components/RandomBox/RandomBox';
+
 function App() {
   return (
     <>
-      <p>Click on the Vite and React logos to learn more</p>
+      <div>
+        <RandomBox />
+      </div>
+      <MainForm />
+      <BottomButtons />
     </>
   );
 }
