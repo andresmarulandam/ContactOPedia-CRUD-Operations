@@ -42,3 +42,29 @@ input:focus {
   justify-content: center; /* Centrar horizontalmente */
   margin-top: 20px; /* Espacio arriba del botón */
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 0; /* Espacio entre elementos */
+  display: flex; /* Usar flexbox para alinear contenido */
+  justify-content: space-around; /* Espaciado entre los elementos */
+}
+
+strong {
+  color: #333;
+}
+
+.no-contacts {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
